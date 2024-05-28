@@ -1,0 +1,69 @@
+---
+import { languages } from "@/i18n/ui";
+import { Icon } from 'astro-icon/components';
+import { getLangFromUrl, useTranslatedPath, useTranslations } from "@/i18n/utils";
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+const translatePath = useTranslatedPath(lang)
+---
+
+<div class="relative ml-1 mr-1">
+  <button
+    id="language-toggle-btn"
+    class="appearance-none border-none flex hover:scale-125 transition"
+  >
+    <span class="sr-only">Elige el idioma</span>
+    <Icon name="mdi:world-wide-web" class="size-4" />
+  </button>
+  <div
+    id="languages-menu"
+    class="absolute hidden scale-80 top-8 right-0 text-sm p-1 min-w-[8rem] rounded-md border border-gray-100 bg-white/90 dark:bg-gray-900/90 dark:border-gray-500/20 shadow-[0_3px_10px_rgb(0,0,0,0.2)] backdrop-blur-md"
+  >
+    <ul>
+      {Object.entries(languages).map(([code, label]) => (
+        <li class={`languages-menu-option px-2 py-1.5 cursor-default hover:bg-neutral-400/40 dark:hover:bg-gray-500/50 rounded-sm ${lang === code ? 'bg-yellow-500 text-black dark:text-black' : ''}`}>
+          <a href={translatePath('/', code)} class="block hover:text-yellow-500 transition duration-200">
+            {label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
+
+<style>
+  #languages-menu.open {
+    display: inline;
+    animation: scale-up-center 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes scale-up-center {
+    from {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+</style>
+
+<script is:inline>
+  const languagesMenu = document.getElementById("languages-menu");
+
+  document.addEventListener("click", () => {
+    languagesMenu.classList.remove("open");
+  });
+
+  document.getElementById("language-toggle-btn").addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isClosed = !languagesMenu.classList.contains("open");
+    languagesMenu.classList[isClosed ? "add" : "remove"]("open");
+  });
+
+  languagesMenu.addEventListener("click", (e) => {
+    e.stopPropagation();
+  });
+</script>

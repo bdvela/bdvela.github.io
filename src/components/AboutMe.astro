@@ -1,0 +1,33 @@
+---
+import { Icon } from 'astro-icon/components'
+import { getI18N } from '@/i18n';
+
+const {currentLocale} = Astro
+const i18n = getI18N({currentLocale})
+const personalImageAlt = "Bryan Vela"
+---
+
+<article class="flex flex-col items-center justify-center gap-8 text-gray-700 dark:text-gray-300 md:flex-row">
+  <div
+    class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
+  >
+    <p>
+      {i18n.ABOUT.DESCRIPTION_1}
+    </p>
+
+    <p>
+      {i18n.ABOUT.DESCRIPTION_2}
+    </p>
+
+    <p>
+      {i18n.ABOUT.DESCRIPTION_3}
+    </p>
+    <p class="flex space-x-2 items-center">
+      <Icon name=`jesus` class="size-4"/>&nbsp♥️
+    </p>
+
+  </div>
+
+  <img width="200" height="200" src="/bdvela.webp" alt={personalImageAlt} class="order-1 object-cover w-64 h-full p-1 md:order-2  lg:p-2 lg:w-64 aspect-circle rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 " style="object-position: 50% 50%">
+
+</article>

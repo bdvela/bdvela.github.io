@@ -1,0 +1,32 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+import { getI18N } from '@/i18n';
+
+const {currentLocale} = Astro
+const i18n = getI18N({currentLocale})
+const EXPERIENCIE = [
+  {
+    date: `${i18n.EXPERIENCE.JOB_1.TIME}`,
+    title: `${i18n.EXPERIENCE.JOB_1.TITLE}`,
+    company: `${i18n.EXPERIENCE.JOB_1.SUBTITLE}`,
+    description: `${i18n.EXPERIENCE.JOB_1.DESCRIPTION}`,
+    link: "https://api.whatsapp.com/send?phone=51972179130&text=Hola,%20estoy%20interesado%20en%20adquirir%20un%20sitio%20web%20para%20impulsar%20mi%20negocio/marca%20personal.",
+  },
+  {
+    date: `${i18n.EXPERIENCE.JOB_2.TIME}`,
+    title: `${i18n.EXPERIENCE.JOB_2.TITLE}`,
+    company: `${i18n.EXPERIENCE.JOB_2.SUBTITLE}`,
+    description: `${i18n.EXPERIENCE.JOB_2.DESCRIPTION}`,
+    },
+]
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }
+</ol>

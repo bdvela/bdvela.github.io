@@ -1,0 +1,60 @@
+{
+    "HERO": {
+        "SHORT_DESCRIPTION": "Web Developer",
+        "LONG_DESCRIPTION": "I develop <strong>custom web solutions for those looking to boost their digital presence</strong> and reach new clients. 🚀 <strong>Take your business to the next level</strong> with attractive and functional websites.",
+        "CTA": "Contact Me"
+    },
+    "EXPERIENCE": {
+        "SECTION_TITLE": "Work Experience",
+        "XP_BUTTON": "Learn More",
+        "JOB_1": {
+            "TITLE": "Web Developer",
+            "SUBTITLE": "Freelance",
+            "TIME": "Currently...",
+            "DESCRIPTION": "I develop websites for individuals and businesses interested in improving their digital presence through effective web solutions, implementing modern development practices."
+        },
+        "JOB_2": {
+            "TITLE": "Junior BTP Programmer",
+            "SUBTITLE": "CSTI Corp.",
+            "TIME": "2023 - Present",
+            "DESCRIPTION": "Development, maintenance, and optimization of web applications for clients both nationally and internationally as a Fullstack programmer, with a primary focus on the frontend using SAPUI5."
+        }
+    },
+    "PROJECTS": {
+        "SECTION_TITLE": "Projects",
+        "PROJECT_1": {
+            "TITLE": "Grupo Mofima - Executive Landing Page",
+            "DESCRIPTION": "Landing Page for the law firm Mofima highlighting their experience and services. Emphasis on contacting the company. Fully developed with Astro."
+        },
+        "PROJECT_2": {
+            "TITLE": "BEIZZON - Multilevel Team Manager",
+            "DESCRIPTION": "Web application that displays information of teams of 4 people each across 9 sublevels, as well as registering and displaying the monthly earnings of each member. Built from scratch with React JS and Java Springboot."
+        },
+        "PROJECT_3": {
+            "TITLE": "Chiringuito Pizzas & Drinks - Online Store",
+            "DESCRIPTION": "E-commerce website. Includes a Landing Page and restaurant menu. Additionally, incorporates a payment gateway. Built with WordPress."
+        },
+        "PROJECT_4": {
+            "TITLE": "CVC RETCAMP 2022 - Event",
+            "DESCRIPTION": "Landing page for the most renowned Christian camp in the region. Inspires visitors to register and participate in this event. Built with FullPage.js."
+        },
+        "PROJECT_5": {
+            "TITLE": "Diswallet - TCEA Calculator for Invoice Discounting",
+            "DESCRIPTION": "Academic web application to calculate invoice discounting with their respective TCEA according to their type. Built with Vue Js. and hosted on Firebase."
+        },
+        "PROJECT_6": {
+            "TITLE": "Task Manager - Task Management",
+            "DESCRIPTION": "Academic web application to create, edit, and delete tasks, as well as mark them as completed. Includes login with your Google account and operates under Firebase services. Built with Vue Js."
+        }
+    },
+    "ABOUT": {
+        "SECTION_TITLE": "About Me",
+        "DESCRIPTION_1": "My name is Bryan Vela. I graduated from the <strong>Software Engineering</strong> program at the <strong>Peruvian University of Applied Sciences (UPC)</strong>.",
+        "DESCRIPTION_2": "During my academic journey, I have achieved significant milestones, such as winning <strong>first place in the ULATINHACK 2022 international hackathon</strong> with my team, thanks to our innovative proposal.",
+        "DESCRIPTION_3": "Currently, I work as a Web Developer, complementing my role with skills in Graphic Design, which adds value to each of my projects."
+    },
+    "FOOTER": {
+        "GO_TO_HOME": "Back to top",
+        "CONTACT": "Contact"
+    }
+}

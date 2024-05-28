@@ -1,0 +1,57 @@
+---
+import { Icon } from 'astro-icon/components'
+const personalImageAlt = "Bryan Vela";
+import Badge from "@/components/Badge.astro";
+import SocialPill from "@/components/SocialPill.astro";
+import { getI18N } from '@/i18n';
+
+const {currentLocale} = Astro
+const i18n = getI18N({currentLocale})
+const title = "Bryan Vela";
+const linkedinUrl = "https://www.linkedin.com/in/bdvela/"
+const githubUrl = "https://github.com/bdvela"
+---
+
+<div class="max-w-xl">
+    <div class="flex gap-4 mb-4 items-end">
+        <img
+            class="rounded-full shadow-lg size-16"
+            src="/me.jpg"
+            alt={personalImageAlt}
+        />
+        <div
+            class=" items-center transition md:justify-center "
+        >
+            <Badge>{i18n.HERO.SHORT_DESCRIPTION}</Badge>
+            <h1
+            class="my-2 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+        >
+            {title}
+        </h1>
+    </div>
+        
+    </div>
+   
+    <h1
+        class="text-xl font-bold tracking-tight text-gray-800 sm:text-2xl dark:text-blue-700 mt-2"
+    >
+    </h1>
+    <p
+        class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+    >
+        {i18n.HERO.LONG_DESCRIPTION}
+    </p>
+    <nav class="flex flex-wrap gap-4 mt-8">
+        <SocialPill href="https://api.whatsapp.com/send?phone=51972179130&text=Hola,%20estoy%20interesado%20en%20adquirir%20un%20sitio%20web%20para%20impulsar%20mi%20negocio/marca%20personal.">
+            <Icon name="mdi:whatsapp" class="size-5" href={linkedinUrl}/>
+            {i18n.HERO.CTA}
+        </SocialPill>
+        <a href={linkedinUrl}>
+            <Icon name="mdi:linkedin" class="size-8" />
+        </a >
+        <a href={githubUrl}>
+            <Icon name="mdi:github" class="size-8" />
+        </a>
+
+    </nav>
+</div>
