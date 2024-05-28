@@ -11,16 +11,13 @@ const personalImageAlt = "Bryan Vela"
   <div
     class="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
   >
-    <p>
-      {i18n.ABOUT.DESCRIPTION_1}
+    <p set:html= {i18n.ABOUT.DESCRIPTION_1}>
+    </p>
+    
+    <p set:html={i18n.ABOUT.DESCRIPTION_2}>
     </p>
 
-    <p>
-      {i18n.ABOUT.DESCRIPTION_2}
-    </p>
-
-    <p>
-      {i18n.ABOUT.DESCRIPTION_3}
+    <p set:html={i18n.ABOUT.DESCRIPTION_3}>
     </p>
     <p class="flex space-x-2 items-center">
       <Icon name=`jesus` class="size-4"/>&nbsp♥️
