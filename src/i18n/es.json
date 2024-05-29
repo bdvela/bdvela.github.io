@@ -23,27 +23,33 @@
     "PROJECTS": {
         "SECTION_TITLE": "Proyectos",
         "PROJECT_1": {
-            "TITLE": "Grupo Mofima - Landing Page ejecutiva",
+            "TITLE": "Grupo Mofima",
+            "SUBTITLE": "Landing Page ejecutiva",
             "DESCRIPTION" : "Landing Page para el estudio jurídico Mofima en el que se resalta la experiencia con la que cuentan y los servicios que brindan. Enfatizando en el contacto con la empresa. Trabajado con Astro al 100%"
         },
         "PROJECT_2": {
-            "TITLE": "BEIZZON - Gestor de equipos multiniveles",
+            "TITLE": "BEIZZON",
+            "SUBTITLE": "Gestor de equipos multiniveles",
             "DESCRIPTION" : "Aplicación web que se encarga de mostrar información de equipos de 4 personas en total en un total de 9 subniveles, además de registrar y mostrar las ganancias mensualespor cada miembro. Construida desde cero con React JS y Java Springboot."
         },
         "PROJECT_3": {
-            "TITLE": "Chiringuito Pizzas & Drinks - Tienda virtual",
+            "TITLE": "Chiringuito Pizzas & Drinks",
+            "SUBTITLE": "Tienda virtual",
             "DESCRIPTION" : "Sitio web e-commerce. Incluye una Landing Page y carta del restaurante. Además de la incorporación de pasarela de pago. Construido con Wordpress."
         },
         "PROJECT_4": {
-            "TITLE": "CVC RETCAMP 2022 - Evento",
+            "TITLE": "CVC RETCAMP 2022",
+            "SUBTITLE": "Evento",
             "DESCRIPTION" : "Landing page para el campamento cristiano más reconocido de la región. Se inspira a los visitantes a inscribirse y formar parte de este evento. Construido con FullPage.js"
         },
         "PROJECT_5": {
-            "TITLE": "Diswallet - Calculadora de TCEA en descuento de facturas",
+            "TITLE": "Diswallet",
+            "SUBTITLE": "Calculadora de TCEA en descuento de facturas",
             "DESCRIPTION" : "Aplicación web académica para calcular descuento de facturas con sus respectivas TCEA según su tipo. Construido con Vue Js. y alojada en Firebase."
         },
         "PROJECT_6": {
-            "TITLE": "Task Manager - Gestión de tareas",
+            "TITLE": "Task Manager",
+            "SUBTITLE": "Gestión de tareas",
             "DESCRIPTION" : "Aplicación web académica para crear, editar y eliminar tareas, así mismo como marcarlas como completadas. Incluye un login con tu cuenta de Google y funciona bajo los servicios de Firebase. Construido con Vue Js."
         }    
     },
