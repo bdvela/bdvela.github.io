@@ -12,25 +12,25 @@ Este portafolio está construido con las siguientes tecnologías:
 - **HTML5** y **CSS3**: Para la estructura y el diseño del sitio.
 - **JavaScript**: Para la interactividad del sitio.
 - **Tailwind CSS**: Para estilos rápidos y responsivos.
-- **Github pAGES**: Para el despliegue.
+- **Github Pages**: Para el despliegue.
 
 ## Instalación y Ejecución Local
 
 Si deseas ejecutar este portafolio localmente para usarlo de referencia, sigue estos pasos:
 
 1. Clona el repositorio:
-   ```bash
+   ```console
    git clone [https://github.com/tu-usuario/tu-portafolio.git](https://github.com/bdvela/bdvela.github.io.git)
    cd tu-portafolio
    ```
 
 2. Instala las dependencias:
-   ```bash
+   ```console
    npm i
    ```
 
 3. Inicia el servidor de desarrollo:
-   ```bash
+   ```console
    npm run dev
    ```
 
@@ -38,7 +38,6 @@ Si deseas ejecutar este portafolio localmente para usarlo de referencia, sigue e
 
 ## Contacto
 
-Contacto
 Puedes contactarme a través de las siguientes plataformas:
 
 Email: bdvela20@gmail.com
