@@ -2,7 +2,10 @@
     "HERO": {
         "SHORT_DESCRIPTION": "Web Developer",
         "LONG_DESCRIPTION": "I develop <strong>custom web solutions for those looking to boost their digital presence</strong> and reach new clients. <br> 🚀 <strong>Take your business to the next level</strong> with attractive and functional websites.",
-        "CTA": "Contact Me"
+        "CTA": "Contact Me",
+        "LINK_CTA":"https://api.whatsapp.com/send?phone=51972179130&text=Hello,%20I%20am%20interested%20in%20acquiring%20a%20website%20to%20boost%20my%20business/personal%20brand.",
+        "CV": "CV_VELA_BRYAN_EN.pdf",
+        "ALT": "Download Resume"
     },
     "EXPERIENCE": {
         "SECTION_TITLE": "Work Experience",

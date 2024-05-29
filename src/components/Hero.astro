@@ -42,7 +42,7 @@ const githubUrl = "https://github.com/bdvela"
         
     </p>
     <nav class="flex flex-wrap gap-4 mt-8">
-        <SocialPill href="https://api.whatsapp.com/send?phone=51972179130&text=Hola,%20estoy%20interesado%20en%20adquirir%20un%20sitio%20web%20para%20impulsar%20mi%20negocio/marca%20personal.">
+        <SocialPill href={i18n.HERO.LINK_CTA}>
             <Icon name="mdi:whatsapp" class="size-5" href={linkedinUrl}/>
             {i18n.HERO.CTA}
         </SocialPill>
@@ -51,6 +51,10 @@ const githubUrl = "https://github.com/bdvela"
         </a >
         <a href={githubUrl}>
             <Icon name="mdi:github" class="size-8" />
+        </a>
+        <a href={`/CV/${i18n.HERO.CV}`} download="CV_Vela_Bryan.pdf" title={i18n.HERO.ALT} >
+            <Icon name="cv" class="size-8"/>
+            {console.log(`/CV/${i18n.HERO.CV}`)}
         </a>
 
     </nav>

@@ -2,7 +2,10 @@
     "HERO": {
         "SHORT_DESCRIPTION": "Desarrollador Web",
         "LONG_DESCRIPTION": "Desarrollo <strong>soluciones web a medida para quienes buscan impulsar su presencia digital</strong> y alcanzar nuevos clientes. <br>🚀 <strong>Lleva tu negocio al siguiente nivel</strong> con sitios web atractivos y funcionales.",
-        "CTA" : "Contáctame"
+        "CTA" : "Contáctame",
+        "LINK_CTA":"https://api.whatsapp.com/send?phone=51972179130&text=Hola,%20estoy%20interesado%20en%20adquirir%20un%20sitio%20web%20para%20impulsar%20mi%20negocio/marca%20personal.",
+        "CV": "CV_VELA_BRYAN_ES.pdf",
+        "ALT": "Descargar Resumen"
     },
     "EXPERIENCE": {
         "SECTION_TITLE": "Experiencia Laboral",

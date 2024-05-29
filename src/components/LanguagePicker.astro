@@ -27,7 +27,7 @@ const translatePath = useTranslatedPath(lang)
   >
     <ul>
       {Object.entries(languages).map(([code, label]) => (
-        <li class={`languages-menu-option px-2 py-1.5 cursor-default hover:bg-neutral-400/40 dark:hover:bg-gray-500/50 rounded-sm ${lang === code ? 'bg-yellow-500 text-black dark:text-black' : ''}`}>
+        <li class={`text-start languages-menu-option px-2 py-1.5 cursor-default hover:bg-neutral-400/40 dark:hover:bg-gray-500/50 rounded-sm ${lang === code ? 'bg-yellow-500 text-black dark:text-black' : ''}`}>
           <a href={translatePath('/', code)} class="block hover:text-yellow-500 transition duration-200">
             {label}
           </a>
