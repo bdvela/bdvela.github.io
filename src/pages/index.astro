@@ -5,6 +5,7 @@ import Experience from "@/components/Experience.astro"
 import Projects from "@/components/Projects.astro"
 import SectionContainer from "@/components/SectionContainer.astro"
 import Hero from "@/components/Hero.astro"
+import { Icon } from 'astro-icon/components'
 
 const title = "Bryan Vela - Desarrollador Web"
 const description = "Desarrollador de sitios web a medida para tu negocio o marca personal."
@@ -25,7 +26,8 @@ const description = "Desarrollador de sitios web a medida para tu negocio o marc
       <h2
         class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
       >
-        Experiencia laboral
+      <Icon name="mdi:briefcase-outline" class="size-7"/>
+      Experiencia laboral
       </h2>
       <Experience />
     </SectionContainer>
@@ -34,7 +36,8 @@ const description = "Desarrollador de sitios web a medida para tu negocio o marc
       <h2
         class="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white"
       >
-        Proyectos
+      <Icon name="mdi:code" class="size-7"/>
+      Proyectos
       </h2>
       <Projects />
     </SectionContainer>
@@ -43,7 +46,9 @@ const description = "Desarrollador de sitios web a medida para tu negocio o marc
       <h2
         class="flex items-center mb-6 text-3xl font-semibold gap-x-8 text-black/80 dark:text-white"
       >
-        Sobre mí
+      
+      <Icon name="mdi:person-check-outline" class="size-7"/>
+      Sobre mí
       </h2>
       <AboutMe />
     </SectionContainer>

@@ -13,8 +13,14 @@ const translatePath = useTranslatedPath(lang)
     id="language-toggle-btn"
     class="appearance-none border-none flex hover:scale-125 transition"
   >
+  <div class="flex items-center gap-x-1">
     <span class="sr-only">Elige el idioma</span>
     <Icon name="mdi:world-wide-web" class="size-4" />
+    <p class="text-gray-400">
+
+      {(lang).toUpperCase()}
+    </p>
+  </div>  
   </button>
   <div
     id="languages-menu"
