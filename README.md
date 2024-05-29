@@ -1,54 +1,46 @@
-# Astro Starter Kit: Basics
+# Mi Portafolio
 
-```sh
-npm create astro@latest -- --template basics
-```
+## Descripción
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+¡Bienvenido a mi portafolio! Este sitio web presenta una colección de mis proyectos, habilidades y experiencias en el desarrollo web. Aquí encontrarás información sobre los trabajos que he realizado y cómo puedo ayudarte a impulsar tu presencia digital.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Tecnologías Utilizadas
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Este portafolio está construido con las siguientes tecnologías:
 
-## 🚀 Project Structure
+- **Astro**: Para la generación de sitios estáticos.
+- **HTML5** y **CSS3**: Para la estructura y el diseño del sitio.
+- **JavaScript**: Para la interactividad del sitio.
+- **Tailwind CSS**: Para estilos rápidos y responsivos.
+- **Github pAGES**: Para el despliegue.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Instalación y Ejecución Local
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Si deseas ejecutar este portafolio localmente para usarlo de referencia, sigue estos pasos:
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-portafolio.git
+   cd tu-portafolio
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+2. Instala las dependencias:
+   ```bash
+   npm i
 
-Any static assets, like images, can be placed in the `public/` directory.
+3. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
 
-## 🧞 Commands
+3. Abre tu navegador y navega a la ruca de localhost que se especifica en tu terminal para ver el sitio.
 
-All commands are run from the root of the project, from a terminal:
+## Contacto
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Contacto
+Puedes contactarme a través de las siguientes plataformas:
 
-## 👀 Want to learn more?
+Email: bdvela20@gmail.com
+LinkedIn: https://www.linkedin.com/in/bdvela/
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Atribuciones
+Este proyecto portafolio está basado en el portofolio ejemplo de Midudev.
+
