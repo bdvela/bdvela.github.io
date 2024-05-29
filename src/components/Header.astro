@@ -4,7 +4,6 @@ import LanguagePicker from '@/components/LanguagePicker.astro'
 import ThemeToggle from '@/components/ThemeToggle.astro'
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang)
-const {currentLocale} = Astro
 
 const navItems = [
   {
