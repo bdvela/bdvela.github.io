@@ -21,7 +21,9 @@ Si deseas ejecutar este portafolio localmente para usarlo de referencia, sigue e
 1. Clona el repositorio:
    ```console
    git clone [https://github.com/tu-usuario/tu-portafolio.git](https://github.com/bdvela/bdvela.github.io.git)
-   cd tu-portafolio
+   ```
+   ```console
+   cd bdvela.github.io
    ```
 
 2. Instala las dependencias:
