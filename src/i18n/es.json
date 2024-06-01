@@ -33,7 +33,7 @@
         "PROJECT_2": {
             "TITLE": "BEIZZON",
             "SUBTITLE": "Gestor de equipos multiniveles",
-            "DESCRIPTION" : "Aplicación web que se encarga de mostrar información de equipos de 4 personas en total en un total de 9 subniveles, además de registrar y mostrar las ganancias mensualespor cada miembro. Construida desde cero con React JS y Java Springboot."
+            "DESCRIPTION" : "Aplicación web que se encarga de mostrar información de equipos de 4 personas en total en un total de 9 subniveles, además de registrar y mostrar las ganancias mensuales por cada miembro. Construida desde cero con React JS y Java Springboot."
         },
         "PROJECT_3": {
             "TITLE": "Chiringuito Pizzas & Drinks",
