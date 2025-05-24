@@ -11,15 +11,21 @@
         "SECTION_TITLE": "Experiencia Laboral",
         "XP_BUTTON": "Saber más",
         "JOB_1": {
+            "TITLE": "Consultor Técnico",
+            "SUBTITLE": "SEIDOR Consulting PERÚ",
+            "TIME": "Enero 2025 - Actualidad",
+            "DESCRIPTION" : "Desarrollo aplicaciones en el entorno FIORI. Además de implementar integraciones entre aplicaciones de Microsoft como Power Platform con SAP."
+        },
+        "JOB_2": {
             "TITLE": "Desarrollador Web",
             "SUBTITLE": "Freelance",
             "TIME": "Actualmente...",
             "DESCRIPTION" : "Desarrollo sitios web para personas y negocios interesados en mejorar su presencia digital mediante soluciones web efectivas, implementando prácticas modernas de desarrollo."
         },
-        "JOB_2": {
-            "TITLE": "Programador Junior BTP",
+        "JOB_3": {
+            "TITLE": "Consultor Junior BTP",
             "SUBTITLE": "CSTI Corp.",
-            "TIME": "2023 - Actualidad",
+            "TIME": "Enero 2023 - Enero 2025",
             "DESCRIPTION" : "Desarrollo, mantenimiento y optimización de aplicaciones web de clientes a nivel nacional e internacional como programador Fullstack, con un enfoque principal en el frontend utilizando SAPUI5."
         }        
     },

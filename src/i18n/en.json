@@ -11,15 +11,21 @@
         "SECTION_TITLE": "Work Experience",
         "XP_BUTTON": "Learn More",
         "JOB_1": {
+            "TITLE": "Technical Consultant",
+            "SUBTITLE": "SEIDOR Consulting PERU",
+            "TIME": "Enero 2025 - Present",
+            "DESCRIPTION" : "I develop applications in the FIORI environment. I also implement integrations between Microsoft applications such as Power Platform and SAP."
+        },
+        "JOB_2": {
             "TITLE": "Web Developer",
             "SUBTITLE": "Freelance",
             "TIME": "Currently...",
             "DESCRIPTION": "I develop websites for individuals and businesses interested in improving their digital presence through effective web solutions, implementing modern development practices."
         },
-        "JOB_2": {
-            "TITLE": "Junior BTP Programmer",
+        "JOB_3": {
+            "TITLE": "Junior BTP Consultant",
             "SUBTITLE": "CSTI Corp.",
-            "TIME": "2023 - Present",
+            "TIME": "January 2023 - January 2025",
             "DESCRIPTION": "Development, maintenance, and optimization of web applications for clients both nationally and internationally as a Fullstack programmer, with a primary focus on the frontend using SAPUI5."
         }
     },
